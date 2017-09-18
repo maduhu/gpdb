@@ -69,6 +69,7 @@ groups:
   - MM_gpexpand_1
   - MM_gpexpand_2
   - MM_gpcheckcat
+  - MM_gp_upgrade
   - gate_mm_end
 ################################
   - gate_dpm_start
@@ -171,6 +172,7 @@ groups:
   - MM_gpexpand_1
   - MM_gpexpand_2
   - MM_gpcheckcat
+  - MM_gp_upgrade
   - gate_mm_end
 
 - name: G:DPM
@@ -3027,6 +3029,7 @@ jobs:
     - MM_gpexpand_1
     - MM_gpexpand_2
     - MM_gpinitstandby
+    - MM_gp_upgrade
     - DPM_gptransfer_43x_to_master
     - DPM_gptransfer
     - mpp_interconnect
